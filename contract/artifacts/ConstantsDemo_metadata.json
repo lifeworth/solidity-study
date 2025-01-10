@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "CONSTANTS_ADDR",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "non_constants_addr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/ConstantsDemo.sol": "ConstantsDemo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/ConstantsDemo.sol": {
+			"keccak256": "0xab42e005797099795431d5b523303902a912e6105263dbd3d0aa359c9ea14142",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://63afbad54df0339652c2b41fe7e9821029f14db7074f2615e622504a771969b6",
+				"dweb:/ipfs/QmW5opGbFiaGVuXk3BbhxCDrf15Lz2Zwudz8ZoAizcc38N"
+			]
+		}
+	},
+	"version": 1
+}
