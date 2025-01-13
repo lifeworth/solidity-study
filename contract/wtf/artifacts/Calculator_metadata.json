@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/wtf/继承.sol": "Calculator"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/wtf/继承.sol": {
+			"keccak256": "0x02d2be51a3a4b9923db0158f369b401f9380149c251ca1982ba63b2229167655",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://24db1a310547753e3e1a789f6b1079d2c4752188776bc14aa117b076ed0c947a",
+				"dweb:/ipfs/QmTZ19cBVjkbgbL1AfDbVwETxFcJy2TP78KuEuc5wEv6qc"
+			]
+		}
+	},
+	"version": 1
+}

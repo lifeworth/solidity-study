@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_a",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/wtf/继承.sol": "A"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/wtf/继承.sol": {
+			"keccak256": "0x6dc636aa4261cf5f216fe12002871e488d1ae97479f206078f618d95e7d208a6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a8fc213e133ea31d0826798d028b85654e25583c18fd66c77689b0a5da1e547c",
+				"dweb:/ipfs/QmTHgRTfLx2BijUWsMqKb2GMDNqNVokQtLfPuhBFqFaHpx"
+			]
+		}
+	},
+	"version": 1
+}

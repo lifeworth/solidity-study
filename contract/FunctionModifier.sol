@@ -8,6 +8,7 @@ contract FunctionModifier {
     uint256 public count = 1;
     bool public paused = false;
 
+
     modifier nonZero() {
         require(number != 0, "number must not be zero");
         _;
