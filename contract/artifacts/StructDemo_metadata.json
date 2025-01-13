@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -8,6 +8,52 @@
 			{
 				"inputs": [],
 				"name": "car",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "model",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "car2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "model",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "car3",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -90,6 +136,34 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deleteProtitiesAndObj",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initCar3",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "initCarArrays",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "readAndModify",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -107,7 +181,7 @@
 		"compilationTarget": {
 			"contract/StructDemo.sol": "StructDemo"
 		},
-		"evmVersion": "london",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -120,11 +194,11 @@
 	},
 	"sources": {
 		"contract/StructDemo.sol": {
-			"keccak256": "0xa461034dfc2c9f78ed8b55e82a88ecd92ba80de74580f0c385994eb423828553",
+			"keccak256": "0x543f3f9d46ef0ea7c315609796bd74e1c2c72ea05e58215cc3eb60419de852eb",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5bbdacbd9e43be1f8a7ba24ab1937f858c72f814dc7d90046c0ef76c26054603",
-				"dweb:/ipfs/QmbJzLL7hb3aHYPjW29CSkkx3erMtYoTN2VjUuYQX6rqSi"
+				"bzz-raw://96daed8b45227173393dbafafa5473ce95bb3314e32809b6d6875c4087e6abf7",
+				"dweb:/ipfs/QmVJW2xLHUQKb1sPUi5eUiWgVnQwu8E12xhyz4L3nqm6Ug"
 			]
 		}
 	},
