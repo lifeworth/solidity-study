@@ -3,6 +3,7 @@
 pragma solidity ^0.8.7;
 
 contract OtherContract {
+    
     uint256 private _x = 0; // 状态变量_x
     // 收到eth的事件，记录amount和gas
     event Log(uint256 amount, uint256 gas);
@@ -28,10 +29,12 @@ contract OtherContract {
 }
 
 contract CallContract {
+    //1 传入合约地址
     function callSetX(address _Address, uint256 x) external {
         OtherContract(_Address).setX(x);
     }
 
+    //2 传入合约变量
     function callGetX(OtherContract _Address)
         external
         view
@@ -40,11 +43,13 @@ contract CallContract {
         x = _Address.getX();
     }
 
+    //3. 创建合约变量
     function callGetX2(address _Address) external view returns (uint256 x) {
         OtherContract oc = OtherContract(_Address);
         x = oc.getX();
     }
 
+    //4 调用合约并发送ETH
     function setXTransferETH(address otherContract, uint256 x)
         external
         payable

@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getX",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "setX",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "目标合约地址.call(字节码);   其中字节码利用结构化编码函数abi.encodeWithSignature获得：      abi.encodeWithSignature(\"函数签名\", 逗号分隔的具体参数)    函数签名为\"函数名（逗号分隔的参数类型）\"。例如      abi.encodeWithSignature(\"f(uint256,address)\", _x, _addr)。    另外call在调用合约时可以指定交易发送的ETH数额和gas数额：   目标合约地址.call{value:发送数额, gas:gas数额}(字节码);",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/wtf/call.sol": "OtherContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/wtf/call.sol": {
+			"keccak256": "0xa50cc8632cd7748d9c739f746539f84fc109ad666dcbfdf1a1dd9092adf39924",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://dcd662fd5cf33e69714a8e7f65e5a95036417deca5aaeebadd73f30767f7795d",
+				"dweb:/ipfs/QmTsu4FZpbc1ffzK7hM5RVx692vw3rcmagUNDVy3FZidyZ"
+			]
+		}
+	},
+	"version": 1
+}
