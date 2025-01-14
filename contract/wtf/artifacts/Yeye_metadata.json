@@ -17,27 +17,6 @@
 				],
 				"name": "Log",
 				"type": "event"
-			},
-			{
-				"inputs": [],
-				"name": "hip",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "pop",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "yeye",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -53,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/wtf/继承.sol": "Yeye"
+			"contract/wtf/钻石继承.sol": "Yeye"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -67,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract/wtf/继承.sol": {
-			"keccak256": "0x6dc636aa4261cf5f216fe12002871e488d1ae97479f206078f618d95e7d208a6",
+		"contract/wtf/钻石继承.sol": {
+			"keccak256": "0x2131302d259b3c313afdadbf343a16819a10dc4136ff65e37c326b3b73d8ee9e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a8fc213e133ea31d0826798d028b85654e25583c18fd66c77689b0a5da1e547c",
-				"dweb:/ipfs/QmTHgRTfLx2BijUWsMqKb2GMDNqNVokQtLfPuhBFqFaHpx"
+				"bzz-raw://37211460e4f1b53f830b735753fed3d774c34d181c6ba93167c62e225ed94781",
+				"dweb:/ipfs/QmXWNH2hz6fC4fxj7kDeiJJSgNE8M4Mo8nxy1a1d9GhvB7"
 			]
 		}
 	},

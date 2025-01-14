@@ -20,28 +20,21 @@
 			},
 			{
 				"inputs": [],
-				"name": "baba",
+				"name": "dCall",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "hip",
+				"name": "dCallSuper",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "pop",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "yeye",
+				"name": "foo",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -60,7 +53,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/wtf/继承的调用.sol": "Baba"
+			"contract/wtf/钻石继承.sol": "E"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -74,12 +67,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract/wtf/继承的调用.sol": {
-			"keccak256": "0x9d2cf47b4dbc763ad4ae8b4582c1ddf8cb995934da715e6f818561e6816bffd7",
+		"contract/wtf/钻石继承.sol": {
+			"keccak256": "0xac15260e4b89b7bb7d5eb95a3c88287548f36abb2c094cc2c23136d55df5459f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ad4436ef8ff3baf51b977c6fe328c9326ff0261b306878c46e80d7aa58e01a6b",
-				"dweb:/ipfs/QmfEPm2Akg1SRxwtK6kJNUZrBEphpm47TgRi71SkBVLzNj"
+				"bzz-raw://a619147f9789e59fb88755d5aa1a28b628a802db0a003459712c8e790f0c5d1d",
+				"dweb:/ipfs/QmSgVh6PHZL3sB1DJ86sWonYTxf6rkgJ2xrbksnQJMciQK"
 			]
 		}
 	},

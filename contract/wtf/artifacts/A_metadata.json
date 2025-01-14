@@ -6,27 +6,23 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_a",
-						"type": "string"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "a",
-				"outputs": [
-					{
+						"indexed": false,
 						"internalType": "string",
 						"name": "",
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -38,12 +34,13 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
+			"notice": "A     B     C            E",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/wtf/继承.sol": "A"
+			"contract/wtf/钻石继承.sol": "A"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -57,12 +54,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract/wtf/继承.sol": {
-			"keccak256": "0x6dc636aa4261cf5f216fe12002871e488d1ae97479f206078f618d95e7d208a6",
+		"contract/wtf/钻石继承.sol": {
+			"keccak256": "0xac15260e4b89b7bb7d5eb95a3c88287548f36abb2c094cc2c23136d55df5459f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a8fc213e133ea31d0826798d028b85654e25583c18fd66c77689b0a5da1e547c",
-				"dweb:/ipfs/QmTHgRTfLx2BijUWsMqKb2GMDNqNVokQtLfPuhBFqFaHpx"
+				"bzz-raw://a619147f9789e59fb88755d5aa1a28b628a802db0a003459712c8e790f0c5d1d",
+				"dweb:/ipfs/QmSgVh6PHZL3sB1DJ86sWonYTxf6rkgJ2xrbksnQJMciQK"
 			]
 		}
 	},

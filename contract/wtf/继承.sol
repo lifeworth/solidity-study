@@ -61,6 +61,7 @@ contract Erzi is Yeye, Baba {
     }
 }
 
+//含参的构造函数的继承
 contract A {
     string public a;
 
@@ -72,5 +73,33 @@ contract A {
 contract B is A("contract B") {}
 
 contract C is A {
-    constructor(string memory _c) A(_a * _c) {}
+    string public _c;
+
+    constructor(string memory _c, string memory _a) A(_a) {
+        _c = _c;
+    }
+}
+
+contract AA {
+    event LogAA(string);
+
+    constructor() {
+        emit LogAA("AA");
+    }
+}
+
+contract BB {
+    event LogBB(string);
+
+    constructor() {
+        emit LogBB("BB");
+    }
+}
+
+contract CC is AA,BB  {
+    event LogCC(string);
+
+    constructor() {
+        emit LogCC("CC");
+    }
 }

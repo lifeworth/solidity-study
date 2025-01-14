@@ -27,6 +27,20 @@
 			},
 			{
 				"inputs": [],
+				"name": "callParent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callParentSuper",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "erzi",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -67,7 +81,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/wtf/继承.sol": "Erzi"
+			"contract/wtf/继承的调用.sol": "Erzi"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -81,12 +95,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract/wtf/继承.sol": {
-			"keccak256": "0x6dc636aa4261cf5f216fe12002871e488d1ae97479f206078f618d95e7d208a6",
+		"contract/wtf/继承的调用.sol": {
+			"keccak256": "0x9d2cf47b4dbc763ad4ae8b4582c1ddf8cb995934da715e6f818561e6816bffd7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a8fc213e133ea31d0826798d028b85654e25583c18fd66c77689b0a5da1e547c",
-				"dweb:/ipfs/QmTHgRTfLx2BijUWsMqKb2GMDNqNVokQtLfPuhBFqFaHpx"
+				"bzz-raw://ad4436ef8ff3baf51b977c6fe328c9326ff0261b306878c46e80d7aa58e01a6b",
+				"dweb:/ipfs/QmfEPm2Akg1SRxwtK6kJNUZrBEphpm47TgRi71SkBVLzNj"
 			]
 		}
 	},

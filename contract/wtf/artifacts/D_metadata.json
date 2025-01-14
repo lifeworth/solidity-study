@@ -17,13 +17,6 @@
 				],
 				"name": "Log",
 				"type": "event"
-			},
-			{
-				"inputs": [],
-				"name": "foo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -39,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/wtf/钻石继承.sol": "B"
+			"contract/wtf/钻石继承.sol": "D"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -54,11 +47,11 @@
 	},
 	"sources": {
 		"contract/wtf/钻石继承.sol": {
-			"keccak256": "0xac15260e4b89b7bb7d5eb95a3c88287548f36abb2c094cc2c23136d55df5459f",
+			"keccak256": "0x9ab3f2c34c11997d81aaff3d085401e6d1574fa3695e14d43dc46f78d48e9e9c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a619147f9789e59fb88755d5aa1a28b628a802db0a003459712c8e790f0c5d1d",
-				"dweb:/ipfs/QmSgVh6PHZL3sB1DJ86sWonYTxf6rkgJ2xrbksnQJMciQK"
+				"bzz-raw://e8a11bdd8774effbda8e8503320e14ae82623849be7c3a3536a61108a42f0d67",
+				"dweb:/ipfs/QmQCzG7y5LyXwvoCdkM7gbYs6PwbqhStYmGgV8Km9qPgzn"
 			]
 		}
 	},

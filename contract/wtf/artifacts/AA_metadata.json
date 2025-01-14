@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -15,15 +20,8 @@
 						"type": "string"
 					}
 				],
-				"name": "Log",
+				"name": "LogAA",
 				"type": "event"
-			},
-			{
-				"inputs": [],
-				"name": "foo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -39,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/wtf/钻石继承.sol": "B"
+			"contract/wtf/继承.sol": "AA"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -53,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract/wtf/钻石继承.sol": {
-			"keccak256": "0xac15260e4b89b7bb7d5eb95a3c88287548f36abb2c094cc2c23136d55df5459f",
+		"contract/wtf/继承.sol": {
+			"keccak256": "0xe535e6b20163c2e94643dd8a19edf3d1701c32ea52d7010e1b3d86d9bc24a3f6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a619147f9789e59fb88755d5aa1a28b628a802db0a003459712c8e790f0c5d1d",
-				"dweb:/ipfs/QmSgVh6PHZL3sB1DJ86sWonYTxf6rkgJ2xrbksnQJMciQK"
+				"bzz-raw://34fb011b2a938d73b36d82bded9381f5b326a948667e0d2b754be3f6e8475967",
+				"dweb:/ipfs/QmScmXFwuST8P2coiUvihFY1zFa4EpJZoZDMzzC2gPLiov"
 			]
 		}
 	},
