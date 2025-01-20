@@ -4,70 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "gas",
-						"type": "uint256"
-					}
-				],
-				"name": "Log",
-				"type": "event"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getX",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "x",
-						"type": "uint256"
-					}
-				],
-				"name": "setX",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -76,13 +13,12 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
-			"notice": "目标合约地址.call(字节码);   其中字节码利用结构化编码函数abi.encodeWithSignature获得：      abi.encodeWithSignature(\"函数签名\", 逗号分隔的具体参数)    函数签名为\"函数名（逗号分隔的参数类型）\"。例如      abi.encodeWithSignature(\"f(uint256,address)\", _x, _addr)。    另外call在调用合约时可以指定交易发送的ETH数额和gas数额：   目标合约地址.call{value:发送数额, gas:gas数额}(字节码);",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/wtf/call.sol": "OtherContract"
+			"contract/wtf/create.sol": "OtherContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -96,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract/wtf/call.sol": {
-			"keccak256": "0xa50cc8632cd7748d9c739f746539f84fc109ad666dcbfdf1a1dd9092adf39924",
+		"contract/wtf/create.sol": {
+			"keccak256": "0xb4179c6a16e3caa5fe18a30bb2968805ac49326e15fa4bb60a45aa5c8f02522d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://dcd662fd5cf33e69714a8e7f65e5a95036417deca5aaeebadd73f30767f7795d",
-				"dweb:/ipfs/QmTsu4FZpbc1ffzK7hM5RVx692vw3rcmagUNDVy3FZidyZ"
+				"bzz-raw://3084d9ee5d0572a30d7bf20f557ee86b2d5cdab5336b17331ec40a369887c843",
+				"dweb:/ipfs/QmVB8KE4x7xYwnv2r2J7z5uoC7pJ5x9Ah7x9DarA8tZrns"
 			]
 		}
 	},

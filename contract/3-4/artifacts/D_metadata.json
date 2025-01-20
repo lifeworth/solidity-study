@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/3-4/EtherWallet.sol": "D"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/3-4/EtherWallet.sol": {
+			"keccak256": "0x06192d4f18e95753044009baf520b87184c3b9544b4f768cce436c8e14002b19",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7933e65e527b94ce20add860a82f6fa8d4a06de04ba03402b02ef249bcae2ab6",
+				"dweb:/ipfs/QmNr1hPfExZ7JTLDUdQtGbPH2eCQsMQvnyBFtpWszPnPit"
+			]
+		}
+	},
+	"version": 1
+}

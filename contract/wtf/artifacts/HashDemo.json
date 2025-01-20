@@ -1,0 +1,83 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_34": {
+					"entryPoint": null,
+					"id": 34,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				},
+				"@keccak256Demo2_26": {
+					"entryPoint": 34,
+					"id": 26,
+					"parameterSlots": 1,
+					"returnSlots": 1
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600e575f80fd5b50601d607b602260201b60201c565b50602b565b5f819050919050565b603e8060365f395ff3fe60806040525f80fdfea2646970667358221220a41e3b9a5fdf25471373faf4980ebc231449ae0225c18687275a7b83df19e7be64736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x1D PUSH1 0x7B PUSH1 0x22 PUSH1 0x20 SHL PUSH1 0x20 SHR JUMP JUMPDEST POP PUSH1 0x2B JUMP JUMPDEST PUSH0 DUP2 SWAP1 POP SWAP2 SWAP1 POP JUMP JUMPDEST PUSH1 0x3E DUP1 PUSH1 0x36 PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 LOG4 0x1E EXTCODESIZE SWAP11 PUSH0 0xDF 0x25 SELFBALANCE SGT PUSH20 0xFAF4980EBC231449AE0225C18687275A7B83DF19 0xE7 0xBE PUSH5 0x736F6C6343 STOP ADDMOD BYTE STOP CALLER ",
+			"sourceMap": "62:300:0:-:0;;;310:50;;;;;;;;;;334:19;349:3;334:14;;;:19;;:::i;:::-;;62:300;;216:88;272:4;295:2;288:9;;216:88;;;:::o;62:300::-;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f80fdfea2646970667358221220a41e3b9a5fdf25471373faf4980ebc231449ae0225c18687275a7b83df19e7be64736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 LOG4 0x1E EXTCODESIZE SWAP11 PUSH0 0xDF 0x25 SELFBALANCE SGT PUSH20 0xFAF4980EBC231449AE0225C18687275A7B83DF19 0xE7 0xBE PUSH5 0x736F6C6343 STOP ADDMOD BYTE STOP CALLER ",
+			"sourceMap": "62:300:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "infinite",
+				"totalCost": "infinite"
+			},
+			"internal": {
+				"keccak256Demo(string calldata)": "infinite",
+				"keccak256Demo2(uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		}
+	]
+}

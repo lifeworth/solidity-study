@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "LOG",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "callByAbi",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success1",
+						"type": "bool"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data1",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_x",
+						"type": "string"
+					}
+				],
+				"name": "callDataDdemo",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_x",
+						"type": "string"
+					}
+				],
+				"name": "look",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/wtf/CallData.sol": "CallDateDemo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/wtf/CallData.sol": {
+			"keccak256": "0x9ceab3f5b4a047da7873f6960dde773eb72b449f2d4b05fb654368a335360725",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://872fee5457b88b5fc2dd44012ca8f421a9adf36a5400334c016b7ebe5d94a259",
+				"dweb:/ipfs/QmeRpPP2mmGjtrQ4ZJUGtVXxBaxBHkryupXVFLUqjWME2m"
+			]
+		}
+	},
+	"version": 1
+}

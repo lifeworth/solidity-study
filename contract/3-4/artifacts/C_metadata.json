@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "LOG",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/3-4/调用父合约的函数.sol": "C"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/3-4/调用父合约的函数.sol": {
+			"keccak256": "0xd44e71d31eb23d082aa2b50be6e7c3c62e87b065208f69dcf882a85e25e9545e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6b5943dbbc91a72dcd7d3df54d81c8cebaa3760a0e8162af638b352c4a80704e",
+				"dweb:/ipfs/Qmb4FjeyHMHmQTgFGFt2T4n8T3cc6NxmrmVkxhJff3jy8b"
+			]
+		}
+	},
+	"version": 1
+}
