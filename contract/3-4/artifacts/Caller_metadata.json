@@ -4,44 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_testContract",
-						"type": "address"
-					},
-					{
-						"internalType": "string",
-						"name": "_msg",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num",
-						"type": "uint256"
-					}
-				],
-				"name": "callFoo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_testContract",
-						"type": "address"
-					}
-				],
-				"name": "callNonExistentFunction",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -55,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/3-4/CallDemo.sol": "Caller"
+			"contract/3-4/New.sol": "Caller"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -69,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract/3-4/CallDemo.sol": {
-			"keccak256": "0x21f6abc328d17d68f59f55f3b7d50dc9a901d0edcdd03a910251a6ac96f3e947",
+		"contract/3-4/New.sol": {
+			"keccak256": "0xa3251d980074ae5bf1f2bfcd5e4f2da901937899f462523a3a98f790f9c0cfaa",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b703af7dc63ee04e5a2ebcb39e09f3b75d98c3bf3d13fd7265d4809331447ee1",
-				"dweb:/ipfs/QmS2uF8rzHVsbD1T69HNqgjXZrqKqbuyzpt5DnBWe2gxbL"
+				"bzz-raw://4e82927736bc838e0bce74012c7cce3e344b54dc4cf8cf13af01e3f823db640c",
+				"dweb:/ipfs/QmbxwCKjjByfJiwRyVKxK4nPxEd4ynJcrqEZjasHTzg3Mi"
 			]
 		}
 	},

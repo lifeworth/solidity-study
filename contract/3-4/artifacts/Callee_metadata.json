@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "setNum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/3-4/DelegateCall.sol": "Callee"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/3-4/DelegateCall.sol": {
+			"keccak256": "0x7f71301d68ff90f2d4eb7352df33ec7e91861425a49d2edd1d257961b4b830c8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5cb61f0e82e6a08def2f631b3de70e46cb74ae6729d3e51542ac6dfec4d7e973",
+				"dweb:/ipfs/QmWNtfBaJsw5n45fBxVyLJgav9srgnEXxvLXJzdgXhtitB"
+			]
+		}
+	},
+	"version": 1
+}

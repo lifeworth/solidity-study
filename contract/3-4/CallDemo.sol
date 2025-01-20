@@ -4,7 +4,8 @@ pragma solidity >=0.8.0 <0.9.0;
 
 contract TestContract {
     string public message;
-    uint256 num;
+    uint256 public num;
+    uint256 public num2;
 
     event Log(string);
 

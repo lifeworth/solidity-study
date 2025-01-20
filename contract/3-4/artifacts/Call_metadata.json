@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/3-4/DelegateCall.sol": "Call"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/3-4/DelegateCall.sol": {
+			"keccak256": "0x91f25c06d42a084d06e98f612220565a62be6372d8c5f3d91fb74c151e7e3d35",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ce09c049cfab8235204b93b9c56d7eaac4f3e20d9ab608149a1a7690130368aa",
+				"dweb:/ipfs/QmfSurqCKN2x8QPRkMgGuuktexApGQsKccwcjA4N4YZwTa"
+			]
+		}
+	},
+	"version": 1
+}
