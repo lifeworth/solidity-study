@@ -4,32 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_owner",
-						"type": "address"
-					}
-				],
-				"stateMutability": "payable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -43,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/3-4/New.sol": "Account"
+			"contract/3-4/LibraryDemo.sol": "Account"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -57,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract/3-4/New.sol": {
-			"keccak256": "0x5510cb512545be1dbdf08872b8345ffa959798bc7aa0806f74cb575f04f513dc",
+		"contract/3-4/LibraryDemo.sol": {
+			"keccak256": "0x33a295820a0d8a422017e40dd52e78c413a1441888d73721a9578511642b6e42",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://956533c4222c29d7e568fe7f244c617dab8a4f4d7f8b417941a645639b696577",
-				"dweb:/ipfs/QmZUL39juQZUdfAZ61tkjydiY1iLeF5q53obgPeuG3yju5"
+				"bzz-raw://39757ee8fefdcb069fcd983ab3b16a110a4634ce1ff0c5140f8dde168e971b7e",
+				"dweb:/ipfs/QmbeDmNt2vnP37P1Wzq2sBiFwYSDsH9LvW7uiiPWcZPhu9"
 			]
 		}
 	},

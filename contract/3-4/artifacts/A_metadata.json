@@ -4,69 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"name": "LOG",
-				"type": "event"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
-				"inputs": [],
-				"name": "Owner",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "deposi",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -80,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contract/3-4/FallbackAndReceive.sol": "A"
+			"contract/3-4/Sig.sol": "A"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -94,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contract/3-4/FallbackAndReceive.sol": {
-			"keccak256": "0xbb3fe9a397a7e47bb0c735551af7b693dfd851bfe6979cb35607b08348b578d3",
+		"contract/3-4/Sig.sol": {
+			"keccak256": "0xd9508bd899e70515322da6f2fed1fd69d55d1ce6751c26a717acb77672a06ccc",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4c6b421a4ad4cd92f1846ca19e31211ae833417112256ea9e30ee203951de544",
-				"dweb:/ipfs/QmdbwmkS9sjpWoa4rdq7tKsQTA2t5Rj9fU44uipWGkShrp"
+				"bzz-raw://9e248f0bd37b3d260ea9c6f9427a79127b2df78b53225f929367b571b3d205f7",
+				"dweb:/ipfs/QmcHiJTSM3A3JvzMV7yGi28aQDHL9CeRK7AAkgWpyGpmMV"
 			]
 		}
 	},

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/3-4/Erc20Demo.sol": "SignatureVerification"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/3-4/Erc20Demo.sol": {
+			"keccak256": "0x4e84620b328f84dc1693dbcb9af2ead3da7633cc094437e72cf84324bc9ec266",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f8b4ac625ca4bbb022a7dfcb3093dbbfd4784b61c1578ac3f5ba70c22a351a54",
+				"dweb:/ipfs/QmVT96UUFoaVnncwk9MFfiohctEgyjDe2y5hgRWZsNfM7H"
+			]
+		}
+	},
+	"version": 1
+}
